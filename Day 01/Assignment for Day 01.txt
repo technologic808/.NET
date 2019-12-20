@@ -1,0 +1,71 @@
+
+HandsOn for C# Basics (.NET framework)
+
+Objective:
+
+1.Use Visual Studio .NET to create Solution ,project, classes
+2.Use C# Syntax to define class, methods, constructors, destructors, properties.
+3.Learn to create instances of class.
+4.Learn to build loosely coupled class libraries using Class Library .NET framework project
+5.Learn to integrate (cohesiveness) class libraries with Console Application.
+6.Explore private assemblies and Shared Assemblies.
+7.Implement Operator overloading, function overloading, function overriding using C# language keywords.
+8.Build class hierarchy (inheritance) and use polymorphsim using C# language.
+
+Tasks for Today (20/12/2019):
+
+1.Create a blank Solution ECommerce using Visual Studio.NET.
+2.Add new Console Application .NET framework project to Tester Solution.
+3.Add new class Complex in Program.cs file of Tester Project.
+4.Add imag and real private int variables to Complex class.
+5.Add Default and parameterized constructor to Complex  class.
+6.Add destructor to Complex Class.
+7.Add Real and Imag as public properties (getter and setter ) to Complex class.
+8.Add private static count to keep track of instances of Complex class created at runtime.
+9.Add Static Count Property (getter and setter) for Complex class.
+10.Override ToString method  for Complex class.
+11.Overload Operator + , - , * and / for complex class as static functions.
+12.Add new Class Library HRLib as .NET Framework project to ECommerece Solution.
+13.Add new Person class  to HRLib Class Library project of ECommerce Solution.
+14.Add private Data members firstName, lastName,birthDate, email and location to Person class HRLib project.
+15.Add default and parameterized constructor to Person class of HRLib class Library project.
+16.Add  FirstName, LastName, BirthDate, Email, Location as properties which encapsulate firstName, lastName, birthDate, location    private variables of Person class.
+17.Override ToString function for Person class.
+18.Add destructor to Person class.
+19.Build Solution ECommerce using Visual Studio .NET IDE Tool.
+20.Add reference of HRLib class Library project to Tester Console Application Project.
+22.Import HRLibt namespace in Program.cs file of Tester Console Application Project.
+23.Create Instance of Person class in Main Static method of Tester Project.
+24.Display Members of Person instance using Console.WriteLine method in Main function of Tester.
+25.Explore bin folder of Tester Project to know private assembly 
+26.Explore Application execution flow using Debugging technique with the help of Visual Studio .NET breakpoint options (F9 , F10 , F11).
+27.Use Watch window and Call Stack Window to explore application flow with the help of Visual Studio .NET
+28.Add new classes Employee, Manager and SalesManager using class hierarchy to HRLib  class Library project of ECommerce Solution.
+29.Add Ploymorphic behaviour to ComputePay method in all these classes using virtual and override keyword.
+30.Test Polymorphic behaviour of ComputePay in Main method of Tester using instances of SalesManager, Manager class.
+31.Add new class Library GraphicsLib to ECommerce Solution.
+32.Add abstract class Shape to GraphicsLib class Library project of ECommerce Solution.
+33.Add abstract method Draw to Shape class.
+34.Add derviced classes Line, Rectangle to GraphicsLib class Library Project.
+35.Add Point as new class to GraphicsLib project.
+36.Add x and y as int private data members to Point class.
+37.Add X, Y as properties to Point class which encapsulate x and y private data memebers of Point class.
+38.Add default , parameterized constructor to Point class of GraphicsLib project.
+39.Add startPoint, endPoint as private data members to Line class.
+40.Add StartPoint, EndPoint as public properties to Line class of GraphpicsLib class Library project.
+41.Override ToString function to Line class, Rectangle class and Point class.
+42.Add parameterized constructor to Line class which does take input as StartPoint, EndPoint.
+43.Override Draw method in Line, Rectangle class.
+44.Build class Library GraphicsLib.
+45.To test GraphicsLib in Tester Console Application, add reference of GraphicsLib  to Tester console application.
+46.Test polymorphism of Shape in Main function of Tester Console Application.
+47.Add new class library project BankingLib in ECommerce Solution.
+48.Add Account as new class in BankingLib class library.
+49.Add balance as private variable in Account class.
+50.Add Balance as public property to Account class.
+51.Add Withdarw , deposit as public member function to Account class.
+52.Override ToString function to Account class.
+53.Build BankingLib class Library project.
+54.Add new Printer Console Application to ECommerce Solution.
+55.Add refernce of BankingLib class Library to Printer Console Application.
+56.Create instance of Account class in Printer Console Application.
