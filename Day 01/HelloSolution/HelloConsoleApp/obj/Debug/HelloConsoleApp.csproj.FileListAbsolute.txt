@@ -1,0 +1,5 @@
+D:\Documents\DOTNETLAB\Batch03\HelloSolution\HelloConsoleApp\bin\Debug\HelloConsoleApp.exe.config
+D:\Documents\DOTNETLAB\Batch03\HelloSolution\HelloConsoleApp\bin\Debug\HelloConsoleApp.exe
+D:\Documents\DOTNETLAB\Batch03\HelloSolution\HelloConsoleApp\bin\Debug\HelloConsoleApp.pdb
+D:\Documents\DOTNETLAB\Batch03\HelloSolution\HelloConsoleApp\obj\Debug\HelloConsoleApp.exe
+D:\Documents\DOTNETLAB\Batch03\HelloSolution\HelloConsoleApp\obj\Debug\HelloConsoleApp.pdb

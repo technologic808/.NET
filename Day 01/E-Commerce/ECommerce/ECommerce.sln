@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRLib", "HRLib\HRLib.csproj", "{53F611B3-E7E4-44B2-9E0C-94060ACFFF7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicsLib", "GraphicsLib\GraphicsLib.csproj", "{09FCE6CA-1F13-4C98-968C-F3E75717A5D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingLib", "BankingLib\BankingLib.csproj", "{162F18A9-0012-481F-B930-AB0FA26AF92A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53F611B3-E7E4-44B2-9E0C-94060ACFFF7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53F611B3-E7E4-44B2-9E0C-94060ACFFF7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53F611B3-E7E4-44B2-9E0C-94060ACFFF7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53F611B3-E7E4-44B2-9E0C-94060ACFFF7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09FCE6CA-1F13-4C98-968C-F3E75717A5D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09FCE6CA-1F13-4C98-968C-F3E75717A5D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09FCE6CA-1F13-4C98-968C-F3E75717A5D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09FCE6CA-1F13-4C98-968C-F3E75717A5D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{162F18A9-0012-481F-B930-AB0FA26AF92A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{162F18A9-0012-481F-B930-AB0FA26AF92A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{162F18A9-0012-481F-B930-AB0FA26AF92A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{162F18A9-0012-481F-B930-AB0FA26AF92A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23422091-D8F6-4216-9F09-C599378C70D7}
+	EndGlobalSection
+EndGlobal
