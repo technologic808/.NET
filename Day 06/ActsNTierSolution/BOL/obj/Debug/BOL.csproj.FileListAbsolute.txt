@@ -1,0 +1,5 @@
+D:\Documents\DOTNETLAB\Batch03\Day 06\ActsNTierSolution\BOL\bin\Debug\BOL.dll
+D:\Documents\DOTNETLAB\Batch03\Day 06\ActsNTierSolution\BOL\bin\Debug\BOL.pdb
+D:\Documents\DOTNETLAB\Batch03\Day 06\ActsNTierSolution\BOL\obj\Debug\BOL.csprojAssemblyReference.cache
+D:\Documents\DOTNETLAB\Batch03\Day 06\ActsNTierSolution\BOL\obj\Debug\BOL.dll
+D:\Documents\DOTNETLAB\Batch03\Day 06\ActsNTierSolution\BOL\obj\Debug\BOL.pdb

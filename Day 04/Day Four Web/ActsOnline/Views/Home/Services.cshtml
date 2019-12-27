@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Services";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>List of Services</h2>
+<h3>@ViewBag.Title</h3>
+<h3>@ViewBag.MyList[0]</h3>
+<h3>@ViewBag.MyList[1]</h3>
+
+<br>
+<br>
+
+<h3>Passing Data From Controller to View using ViewBag</h3>
+@{
+    var data = ViewBag.MyCourse;
+}
+
+<h3>CourseName: @data.CourseName</h3>
+<h3>CourseDetail: @data.CourseDescription</h3>
+
+
