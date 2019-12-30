@@ -14,7 +14,6 @@ namespace ActsOnline.Controllers
         public ActionResult Index()
         {
             List<Question> questions = QuestionManager.GetQuestions();
-            QuestionManager.Shuffle(questions);
             return View(questions);
         }
 

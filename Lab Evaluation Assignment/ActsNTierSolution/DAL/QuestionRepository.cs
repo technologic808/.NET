@@ -22,8 +22,8 @@ namespace DAL
             //3. database path, 4. Security mode
 
        
-            string connectionString =  @"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = D:\Documents\DOTNETLAB\Lab Evaluation Batch 03\ActsNTierSolution\ActsOnline\App_Data\ExamDatabase.mdf; Integrated Security = True";
-           
+            string connectionString = @"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = |DataDirectory|\ExamDatabase.mdf; Integrated Security = True";
+            //@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename = D:\Documents\DOTNETLAB\ActsNTierSolution\ActsOnline\App_Data\ExamDatabase.mdf; Integrated Security = True";
             //@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\ExamDatabase.mdf;Integrated Security=True";
 
 
