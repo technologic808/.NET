@@ -1,0 +1,56 @@
+﻿@model IEnumerable<BOL.Question>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+<form method="post" >
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.QuestionString)
+            </th>
+
+            <th>
+                <input type="radio" >
+                @Html.DisplayNameFor(model => model.OptionOne)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OptionTwo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OptionThree)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OptionFour)
+            </th>
+
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.QuestionString)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.OptionOne)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OptionTwo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OptionThree)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OptionFour)
+                </td>
+
+            </tr>
+        }
+
+    </table>
+    </form>

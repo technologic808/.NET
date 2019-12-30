@@ -1,0 +1,13 @@
+
+Tasks:
+
+Build complete NTier Data Driven ASP.NET MVC APPLICATION using C#, ADO.net 
+
+
+23.Add Index and Detail action methods to EmployeesController
+24.Add logic to getch data from BLL
+26.Add views for index and Details action method of EmployeesController
+27.Implment logic for presnetation for both views index and Detail
+28.Test MVC Application
+
+

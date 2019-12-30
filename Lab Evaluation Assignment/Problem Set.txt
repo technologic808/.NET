@@ -1,0 +1,15 @@
+mvc app using ASP.NET  or  .NET MVC  with ADO .NET
+
+> login form page
+
+> welcome page with option to start test
+
+> test page with 
+	> 10 questions in randomized order
+	> 10 minutes countdown timer 
+
+> results page with results and correct answers
+
+
+
+

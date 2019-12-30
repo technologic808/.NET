@@ -1,0 +1,57 @@
+﻿@using BOL;
+@model IEnumerable<Employee>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+
+@*@{
+    foreach (Employee emp in @Model)
+    {
+        <p>@emp.Name  @emp.Age | @Html.ActionLink("Details", "Details", new { id = emp.Id })</p>
+    }
+}*@
+
+
+<p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Age)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (Employee employee in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => employee.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => employee.Age)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => employee.Phone)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = employee.Id }) |
+                    @Html.ActionLink("Details", "Details", new { id = employee.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = employee.Id })
+                </td>
+            </tr>
+        }
+
+    </table>
